@@ -1,0 +1,21 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+/** No CSS for this example */
+mat-card-header{
+    background: green;
+    padding: 10px 1px;
+    color:white;
+}
+
+mat-card-content{
+    padding: 10px;
+}
+
+mat-card{
+    padding:0;
+}
+.missions{
+    margin: 40px;
+}

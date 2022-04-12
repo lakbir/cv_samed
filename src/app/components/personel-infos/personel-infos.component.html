@@ -1,0 +1,22 @@
+<div class="mb-3" style="max-width: 540px;" *ngIf="profile">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="https://material.angular.io/assets/img/examples/shiba1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">{{profile.firstName}} {{ profile.lastName | uppercase }}</h5>
+                <p class="card-text">
+                    <small>{{profile.poste}} | {{profile.contrat}}</small>
+                </p>
+
+                <div class="card-text">
+                    <p><mat-icon>home</mat-icon> {{profile.city}} </p>
+                    <p class="technos">
+                        <button *ngFor="let tech of profile.technos" mat-raised-button color="accent">{{tech}}</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

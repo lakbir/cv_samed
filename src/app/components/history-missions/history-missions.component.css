@@ -1,0 +1,18 @@
+/** No CSS for this example */
+mat-card-header{
+    background: red;
+    padding: 10px 1px;
+    color:white;
+}
+
+mat-card-content{
+    padding: 10px;
+}
+
+mat-card{
+    padding:0;
+}
+
+table {
+    width: 100%;
+}
