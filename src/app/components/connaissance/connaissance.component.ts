@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ProfileService} from "../../services/profile.service";
+import {Article} from "../../models/Profile.model";
 
 @Component({
   selector: 'app-connaissance',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConnaissanceComponent implements OnInit {
 
-  constructor() { }
+  articles: Article[];
+  constructor(private profileService: ProfileService) { }
 
   ngOnInit(): void {
+    this.profileService.getProfile().subscribe(
+        data => {
+          this.articles = data.articles;
+        }, error => {
+          console.error(error);
+        }
+    )
   }
 
 }

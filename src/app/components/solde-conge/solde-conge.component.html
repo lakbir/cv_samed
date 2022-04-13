@@ -1,4 +1,4 @@
-<mat-card class="example-card">
+<mat-card class="example-card" *ngIf="profile">
     <mat-card-header>
         <mat-card-title><mat-icon>airplanemode_active</mat-icon> Soldes Congés</mat-card-title>
     </mat-card-header>
@@ -14,9 +14,9 @@
             </thead>
             <tbody>
             <tr>
-                <td>17</td>
-                <td>4.5</td>
-                <td>0</td>
+                <td>{{profile.solde_conge_cp}}</td>
+                <td>{{profile.solde_conge_rtte}}</td>
+                <td>{{profile.solde_conge_rtts}}</td>
             </tr>
             </tbody>
         </table>

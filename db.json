@@ -5,5 +5,56 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "firstName": "Samed", "lastName" : "MEHRAZ", "poste":"Développeur Back-end", "contrat":"CDI", "city":"Le Mans", "technos":["Java", "Spring Boot", "Angular", "JPA / Hibernate", "React JS", "3 ans Exp"] }
+  "profile": {
+    "firstName": "Samed",
+    "lastName" : "MEHRAZ",
+    "poste":"Développeur Back-end",
+    "contrat":"CDI",
+    "url_image": "",
+    "city":"Le Mans",
+    "technos":["Java", "Spring Boot", "Angular", "JPA / Hibernate", "React JS", "3 ans Exp"],
+    "about": "Quelques mots à propos de Mélanie. Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit",
+    "email": "test@gmail.com",
+    "phone": "+33 55 22 55 22",
+    "cv_url": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+    "current_missions" : ["Project 1", "Project 2"],
+    "history_missions": [
+      {
+        "projet": "projetc 1",
+        "client": "client 1",
+        "date": "02/03/2010",
+        "description": "Description mission 1"
+      },
+      {
+        "projet": "projetc 2",
+        "client": "client 2",
+        "date": "02/03/2012",
+        "description": "Description mission 2"
+      },
+      {
+        "projet": "projetc 3",
+        "client": "client 3",
+        "date": "02/03/2015",
+        "description": "Description mission 3"
+      }
+    ],
+    "solde_conge_cp": 17,
+    "solde_conge_rtte": 4,
+    "solde_conge_rtts": 0,
+    "articles": [
+      {
+        "title": "Article WIKI",
+        "under_title": "Qu est ce que le numérique responsable ?",
+        "description": "Chacun à son échelle peut avoir une utilisation plus raisonnable",
+        "image": "https://material.angular.io/assets/img/examples/shiba1.jpg"
+      },
+      {
+        "title": "Article WIKI",
+        "under_title": "Qu est ce que le numérique responsable ?",
+        "description": "Chacun à son échelle peut avoir une utilisation plus raisonnable",
+        "image": "https://material.angular.io/assets/img/examples/shiba1.jpg"
+      }
+    ]
+
+  }
 }
